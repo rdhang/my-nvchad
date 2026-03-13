@@ -19,7 +19,6 @@ return {
     config = function ()
 
       local mason_registry = require('mason-registry')
-      -- local codelldb = mason_registry.get_package("codelldb")
       local codelldb_pkg = vim.fn.expand("$MASON/packages/codelldb")
       local extension_path = codelldb_pkg .. "/extension/"
       local codelldb_path = extension_path .. "adapter/codelldb"
